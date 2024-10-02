@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* styles.css */
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark background */
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+.navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.navbar .dropdown-menu {
+    background-color: #343a40; /* Match navbar background */
+    border-radius: 0;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Adjust search button */
+.navbar .btn-outline-success {
+    border-color: #28a745; /* Green border */
+    color: #28a745;
+}
+
+.navbar .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Additional styles remain unchanged */
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header styles */
+h3 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #007bff; /* Blue color for headings */
+}
+
+.badge {
+    background-color: #007bff;
+}
+
+/* Accordion styles */
+.accordion .card {
+    border: none;
+}
+
+.accordion .card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+}
+
+.accordion .btn-link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .btn-link:hover {
+    text-decoration: underline;
+}
+
+.accordion .card-body {
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    position: relative;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .accordion .card-body {
+        padding: 15px;
+    }
+}
+
+/* Utility classes */
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
